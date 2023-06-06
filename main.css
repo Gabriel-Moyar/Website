@@ -1,0 +1,75 @@
+html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, dl, li, a {
+	padding: 0;
+	border: 0;
+	margin: 0;
+}
+body {
+    font-family: "helvetica Neue", helvetica, sans-serif;
+    background-color: palegoldenrod;
+}
+
+h1 {
+    font-size: 18px;
+    font-weight: 10;
+    /* float: left; */
+    margin-left: 18px;
+    color: white;
+    position: fixed;
+}
+
+nav {
+    height: 30px;
+    width: auto;
+    background-color: gold;
+    display: flex;
+    justify-content: flex-end;
+}
+
+a {
+    color: white;
+}
+
+li {
+    list-style: none;
+    height: 20px;
+    display: inline-block;
+    /* float: right; */
+    Margin: 5px 10px;
+}
+
+.center {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    /* margin-left: auto;
+    margin-right: auto; */
+}
+
+div .box {
+    background-color: white;
+    margin: 20px;
+    width: 350px;
+    height: 590px;
+    border: 1px solid gold;
+    border-radius: 3px;
+}
+
+h2 {
+    font-weight: 10;
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+}
+
+p {
+    margin: 20px 30px;
+}
+
+input {
+    width: 300px;
+    background-color: gold;
+    border-color: gold;
+    margin-left: 25px;
+}
